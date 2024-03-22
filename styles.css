@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+  }
+  
+  #questionContainer {
+    text-align: center;
+  }
+  
+  .button {
+    padding: 10px;
+    font-size: 1em; /* Tamaño de la fuente relativo */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .green {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+  }
+  
+  .red {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
+  .broken-heart {
+    width: 200px; /* Tamaño inicial del corazón */
+    height: auto;
+  }
+  
+  .beating-heart {
+    width: 200px; /* Tamaño inicial del corazón */
+    height: auto;
+  }
+  
+  #yesButton {
+    width: 150px; /* Ancho inicial del botón "Sí" */
+  }
+  
+  #noButton {
+    width: 100px; /* Ancho inicial del botón "No" */
+  }
